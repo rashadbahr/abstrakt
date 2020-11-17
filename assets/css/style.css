@@ -816,7 +816,7 @@ header {
   opacity: 0;
   visibility: hidden;
 }
-.menu-wrap2 > ul li.menu-item-has-children:hover > ul {
+.menu-wrap2 > ul li > ul {
   opacity: 1;
   visibility: visible;
 }
@@ -937,6 +937,7 @@ header.style1 {
   background-color: #000;
   opacity: 0;
 }
+/*
 .menu-wrap2 > ul li.menu-item-has-children > a::after {
   content: "\L";
   font-family: 'ElegantIcons';
@@ -949,14 +950,16 @@ header.style1 {
   top: 1rem;
   right: .85rem;
 }
+*/
+
 .menu-wrap2 > ul li:hover > a::before, 
 .menu-wrap2 > ul li.active > a::before {
   right: 1.8rem;
   opacity: 1;
 }
-.menu-wrap2 > ul li.menu-item-has-children {padding-right: 1.8rem;}
-.menu-wrap2 > ul li.menu-item-has-children:hover > a::after, 
-.menu-wrap2 > ul li.menu-item-has-children.active > a::after {content: "\K";}
+.menu-wrap2 > ul li {padding-right: 1.8rem;}
+.menu-wrap2 > ul li:hover > a::after, 
+.menu-wrap2 > ul li.active > a::after {content: "";}
 
 /*=== Header Style 3 ===*/
 header.style3 {

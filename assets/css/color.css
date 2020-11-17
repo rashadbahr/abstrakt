@@ -1,5 +1,5 @@
 :root {
-  --theme-color: #ee3364;
+  --theme-color: #0087ff;
 }
 
 /*===== Primary Color =====*/
@@ -45,13 +45,6 @@
 .menu-cls-btn:hover,
 .search-cls-btn:focus,
 .menu-cls-btn:focus,
-.menu-wrap2 > ul li:hover > a:before,
-.menu-wrap2 > ul li.active > a:before,
-.menu-wrap2 > ul li a:focus:before,
-.pagination > li a:hover,
-.pagination > li a:focus,
-.pagination > li.page-item.active span,
-.pagination > li span,
 .port-info7:before,
 .port-img7 > a:before,
 .coming-soon-inner2 .countdown > li:first-child:before,
@@ -63,6 +56,18 @@
 .price-body3 > a:focus
 {
 	background-color: var(--theme-color);
+	box-shadow: #000000de 3px 4px;
+}
+
+.menu-wrap2 > ul li:hover > a:before,
+.menu-wrap2 > ul li.active > a:before,
+.menu-wrap2 > ul li a:focus:before,
+.pagination > li a:hover,
+.pagination > li a:focus,
+.pagination > li.page-item.active span,
+.pagination > li span
+{
+	background-color: var(--theme-color);	
 }
 
 /*===== Text Color =====*/
